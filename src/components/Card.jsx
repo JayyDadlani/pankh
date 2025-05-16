@@ -50,7 +50,7 @@ const Card = ({ title, description, iconSrc }) => {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        <div className="perspective-1000 w-full h-[200px] md:h-[300px]">
+        <div className="perspective-1000 w-full h-[250px] md:h-[300px]">
           <div
             className={`relative w-full h-full duration-500 transition-transform transform-style-3d ${
               isFlipped ? "rotate-y-180" : ""
