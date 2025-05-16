@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #AA587C;
+  --color-secondary: #FD8950; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Albert Sans', sans-serif;
+  color: #333;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.container {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
