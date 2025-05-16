@@ -139,7 +139,7 @@ const Services = () => {
                 <h3 className="text-center text-3xl xl:text-4xl font-medium my-5 bg-gradient-to-b from-primary to-secondary bg-clip-text text-transparent">
                   Our Mission
                 </h3>
-                <p className="text-xl xl:text-2xl text-center font-light my-5">
+                <p className="text-[#503440] text-xl xl:text-2xl text-center font-light my-5">
                   Improving global health through universal access to
                   rehabilitation knowledge
                 </p>
@@ -157,7 +157,7 @@ const Services = () => {
                 <h3 className="text-center text-3xl xl:text-4xl font-medium my-5 bg-gradient-to-b from-primary to-secondary bg-clip-text text-transparent">
                   Our Vision
                 </h3>
-                <p className="text-xl xl:text-2xl text-center font-light my-5">
+                <p className="text-[#503440] text-xl xl:text-2xl text-center font-light my-5">
                   Open knowledge, open education, open research through global
                   collaboration
                 </p>
@@ -175,7 +175,7 @@ const Services = () => {
                 <h3 className="text-center text-3xl xl:text-4xl font-medium my-5 bg-gradient-to-b from-primary to-secondary bg-clip-text text-transparent">
                   Our Goals
                 </h3>
-                <p className="text-xl xl:text-2xl text-center font-light my-5">
+                <p className="text-[#503440] text-xl xl:text-2xl text-center font-light my-5">
                   We strive to reach and involve every rehabilitation
                   professional in the world
                 </p>
@@ -184,7 +184,7 @@ const Services = () => {
           </div>
 
           <div className="my-16">
-            <p className="text-xl xl:text-2xl text-center font-light my-5">
+            <p className="text-[#503440] text-xl xl:text-2xl text-center font-light my-5">
               I offer individual therapy for all genders & adolescents. I also
               work with groups through the spectrum of the creative arts,
               including movement, rhythm; visual aesthetics, story-telling &
@@ -198,29 +198,42 @@ const Services = () => {
 
       <section id="methods" className="my-16">
         <div className="container">
-          <h3 className="text-center text-3xl xl:text-4xl font-medium my-5">
+          <h3 className="text-[#503440] text-center text-3xl xl:text-4xl font-medium my-5">
             The integrated approach <br className="block md:hidden" /> uses
             methods from :
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
-              <Card
+              <div
                 key={index}
-                title={service.title}
-                description={service.description}
-                iconSrc={service.iconSrc}
-              />
+                className={`w-full ${
+                  index === 9
+                    ? "lg:col-span-1 lg:col-start-2 justify-self-center"
+                    : ""
+                }`}
+              >
+                <Card
+                  title={service.title}
+                  description={service.description}
+                  iconSrc={service.iconSrc}
+                />
+              </div>
             ))}
           </div>
         </div>
       </section>
 
-      <div className="container">
-        <p className="text-xl xl:text-2xl text-center font-light my-5">
-          We explore what is your connection to the mind - body and address stress which shows up as chronic illnesses, fatigue, confusion, chronic pain, immunity disorders, anxiety & depression which bother us without solutions in modern medicine.
+      <div className="container my-16">
+        <p className="text-[#503440] text-xl xl:text-2xl text-center font-light my-5">
+          We explore what is your connection to the mind - body and address
+          stress which shows up as chronic illnesses, fatigue, confusion,
+          chronic pain, immunity disorders, anxiety & depression which bother us
+          without solutions in modern medicine.
         </p>
-        <p className="text-xl xl:text-2xl text-center font-light my-5">
-          I believe in the benefit of both western and eastern therapeutic approaches, through our work together we will build resources for you and ways of supporting yourself alone.
+        <p className="text-[#503440] text-xl xl:text-2xl text-center font-light my-5">
+          I believe in the benefit of both western and eastern therapeutic
+          approaches, through our work together we will build resources for you
+          and ways of supporting yourself alone.
         </p>
       </div>
 
@@ -259,16 +272,16 @@ const Services = () => {
             />
           </div>
           <div className="text-center">
-            <h3 className="text-4xl xl:text-5xl text-center font-light my-5">
-              <span className="font-bold">Wondering if</span>{" "}
-              <br className="block sm:hidden" /> The Pankh Project{" "}
-              <br className="block lg:hidden" />{" "}
+            <h3 className="text-[#503440] text-4xl xl:text-5xl text-center font-light my-5">
+              <span className="font-bold">Wondering if</span>
+              <br className="block sm:hidden" /> The Pankh Project
+              <br className="block lg:hidden" />
               <span className="font-bold">is right for you?</span>
             </h3>
-            <p className="text-2xl text-center font-light my-5">
+            <p className="text-[#503440] text-2xl text-center font-light my-5">
               Free Consult Here
             </p>
-            <button className="border-2 border-[#AA587C] relative overflow-hidden px-20 py-5 text-2xl rounded-full font-semibold transition-all duration-300 hover:text-white hover:border-transparent bg-white hover:bg-gradient-to-r from-primary to-secondary shadow-[inset_0px_0px_15px_var(--color-primary),inset_-0px_-0px_15px_var(--color-secondary)] hover:shadow-none outline-none focus:ring-0 focus:outline-none my-5">
+            <button className="border-2 border-[#AA587C] relative overflow-hidden px-20 py-5 text-2xl rounded-full font-semibold transition-all duration-300 hover:text-white hover:border-transparent text-[#5B434E] bg-white hover:bg-gradient-to-r from-primary to-secondary shadow-[inset_0px_0px_15px_var(--color-primary),inset_-0px_-0px_15px_var(--color-secondary)] hover:shadow-none outline-none focus:ring-0 focus:outline-none my-5">
               Book Now
             </button>
           </div>
