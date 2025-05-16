@@ -220,7 +220,7 @@ const Services = () => {
           We explore what is your connection to the mind - body and address stress which shows up as chronic illnesses, fatigue, confusion, chronic pain, immunity disorders, anxiety & depression which bother us without solutions in modern medicine.
         </p>
         <p className="text-xl xl:text-2xl text-center font-light my-5">
-          I believe in the benefit of both western and eastern therapeutic approaches, through our work together we will build resources for you and ways of supporting yourself alone. 
+          I believe in the benefit of both western and eastern therapeutic approaches, through our work together we will build resources for you and ways of supporting yourself alone.
         </p>
       </div>
 

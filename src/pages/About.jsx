@@ -51,7 +51,7 @@ const About = () => {
             <img
               src={hero}
               alt="hero"
-              className="w-full h-[75vh] object-cover rounded-lg"
+              className="w-full h-[75vh] object-cover rounded-lg object-right"
             />
           </div>
           <div>
