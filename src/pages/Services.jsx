@@ -2,7 +2,6 @@ import slider from "../assets/slider.gif";
 import mission from "../assets/mission.png";
 import vision from "../assets/vision.png";
 import goal from "../assets/goal.png";
-import Card from "../components/Card";
 import brandLogo from "../assets/brand-logo.png";
 import feather from "../assets/bg-feather.png";
 import feathers from "../assets/bg-feathers.png";
@@ -18,6 +17,7 @@ import cardIcon8 from "../assets/card-icon-8.png";
 import cardIcon9 from "../assets/card-icon-9.png";
 import cardIcon10 from "../assets/card-icon-10.png";
 import cardIcon11 from "../assets/card-icon-11.png";
+import ServiceCard from "../components/ServiceCard";
 
 const services = [
   {
@@ -212,7 +212,7 @@ const Services = () => {
                     : ""
                 }`}
               >
-                <Card
+                <ServiceCard
                   title={service.title}
                   description={service.description}
                   iconSrc={service.iconSrc}
