@@ -46,6 +46,10 @@ const Blogs = () => {
         <div className="absolute bottom-0 w-full h-12 bg-gradient-to-r from-primary to-secondary blur-2xl opacity-50 -z-10" />
       </section>
 
+      <div className="relative h-[1px]">
+        <div class="absolute top-0 left-0 w-4 md:w-8 h-[100vh] bg-gradient-to-b from-[#AA587C] to-transparent blur-xl z-0"></div>
+      </div>
+
       <section id="slider">
         {/* CONTENT */}
         <div className="flex justify-center items-center py-20 relative z-10">
@@ -95,6 +99,10 @@ const Blogs = () => {
           </div>
         </div>
       </section>
+
+      <div className="relative h-[1px]">
+        <div class="absolute bottom-0 right-0 w-4 md:w-8 h-[100vh] bg-gradient-to-b from-[#FD8950] to-transparent blur-xl z-0"></div>
+      </div>
     </>
   );
 };
