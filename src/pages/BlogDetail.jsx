@@ -20,7 +20,7 @@ export const BlogDetail = () => {
             <img
               src={blogs[id - 1].imagePath}
               alt="Blog detail"
-              className="w-full h-[75vh] object-cover rounded-lg"
+              className="w-full h-[50vh] md:h-[75vh] object-cover rounded-lg"
             />
           </div>
 
