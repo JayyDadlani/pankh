@@ -55,7 +55,7 @@ const Blogs = () => {
               alt="Slider"
               className="w-256 h-2 object-cover mx-auto mb-4"
             />
-            <h2 className="text-center text-4xl font-bold">
+            <h2 className="text-[#503440] text-center text-4xl font-bold">
               Stay Updated with Our Latest News and Blog
             </h2>
           </div>

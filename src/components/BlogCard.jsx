@@ -14,13 +14,13 @@ const BlogCard = ({ blog }) => {
           />
           <div className="p-4 flex-1 flex flex-col justify-between">
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+              <h3 className="text-[#503440] text-lg font-semibold mb-2">
                 {title}
               </h3>
-              <p className="text-gray-600 text-sm mb-4">{excerpt}</p>
+              <p className="text-[#6E5560] text-sm mb-4">{excerpt}</p>
             </div>
             <div className="flex justify-between items-center text-sm">
-              <span className="text-gray-500">{posted_on}</span>
+              <span className="text-[#6C6C6C]">{posted_on}</span>
               <span className="bg-gradient-to-b from-primary to-secondary bg-clip-text text-transparent font-semibold cursor-pointer">
                 Read more
               </span>
